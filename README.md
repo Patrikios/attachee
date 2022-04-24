@@ -1,9 +1,9 @@
 # attachee
-Like `library()` but streamlined. 
+Packages functionality around `library()` but streamlined with install if package(s) not found and optional isntalled packages update beforehand. 
 
 Grabs (from library paths or otherwise tries to install) and attaches a package.
 
-A POC package `attachee` works like `library()` but tries to intall the given package(s) if no found on path. Its flagship function is 'grab_and_attach' that is inteded to get deloped towards a friendly attitude for behind the firewal - company context - installs.
+A POC package `attachee` works like `library()` but tries to intall the given package(s) if no found in library paths. Its flagship function is 'grab_and_attach' that is inteded to get deloped towards a friendly attitude for behind the firewall - company context - installs.
 
 In order to attach the whole list of packages in one command, you can do:
 
